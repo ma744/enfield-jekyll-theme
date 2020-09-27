@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Enfield is a dark blogging theme that I created for my personal website. It is made with simplicity, readability and extensibility in mind.}
   spec.homepage      = "https://github.com/ma744/Enfield-Jekyll-Theme"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 

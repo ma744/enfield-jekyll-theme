@@ -1,0 +1,249 @@
+# --- General options --- #
+
+# Name of website
+title: Enfield Jekyll Theme
+
+# Short description of your site
+tagline: The dark side of Jekyll
+# Long description of your site
+description: Enfield Jekyll Theme is the dark the for your Jekyll based blog. It's gem based and rocks!
+
+# --- Local development options ---
+# If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
+# *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
+
+# url is the the website domain URL without a trailing slash
+# url: "https://example.com"
+
+# baseurl should be an empty string
+baseurl: ""
+
+# --- Navigation bar options --- #
+
+# List of links in the navigation bar
+navbar-links:
+  Contact: contact
+  Resources:
+    - Learn Jekyll: "https://jekyllrb.com/docs/"
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - Learn more about Jekyll plugins: "https://github.com/jekyll"
+  Downloads: downloads
+  Author's home: "https://marcel-artz.de"
+
+# TODO: List of links in the footer
+footer-links:
+  Privacy: privacy
+  Impress: impress
+
+# Sass/SCSS conversion for syntax.scss
+sass:
+  sass_dir: _sass
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/assets/page-images/privateinvestocat.jpg"
+
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+# title-img: /path/to/image
+
+# --- Background colour/image options --- #
+
+# Personalize the colors in your website. Colour values can be any valid CSS colour
+# I used material design with #ffc400 as primary color (https://material.io/design/color/the-color-system.html#tools-for-picking-colors)
+navbar-col: "#0A0A0A"
+navbar-text-col: "#FFC400"
+navbar-children-col: "#121212"
+
+page-col: "#0A0A0A"
+body-text-col: "#616161"
+
+link-col: "#3cff00"
+hover-col: "#3cff00"
+
+footer-col: "#0A0A0A"
+footer-text-col: "#FFC400"
+footer-link-col: "#FFC400"
+
+# Alternatively, the navbar, footer, and page background can be set to use background images
+# instead of colour
+
+# navbar-img: "/assets/page-images/bgimage.png"
+# footer-img: "/assets/page-images/bgimage.png"
+# page-img: "/assets/page-images/bgimage.png"
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: Marcel Artz
+  email: person@example.com
+  url: https://marcel-artz.de
+  github: ma744
+
+# OPG-Picture
+logo: /assets/page-images/screenshot.png
+
+# Change this to username/repo-name. The plugin jekyll-github-metadata depends on this setting
+github:
+repository: https://github.com/ma744/Enfield
+
+# Select your active Social Network Links.
+# Uncomment the links you want to show in the footer and add your information to each link.
+# You can reorder the items to define the link order.
+# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
+social-network-links:
+  rss: true
+  email: "someone@example.com"
+  github: ma744
+#  facebook: deanattali
+#  twitter: daattali
+#  reddit: yourname
+#  linkedin: daattali
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  instagram: deanat78
+#  youtube: user/deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+
+
+# Specify your social profiles for search engine optimization (part of the 'jekyll-seo-tag' gem)
+# See https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md for more information
+# social:
+#   name: Ben Balter
+#   links:
+#     - https://twitter.com/BenBalter
+#     - https://www.facebook.com/ben.balter
+#     - https://www.linkedin.com/in/BenBalter
+#     - https://github.com/benbalter
+#     - https://keybase.io/benbalter
+
+
+# webmaster_verifications:
+#   google: 1234
+#   bing: 1234
+#   yandex: 1234
+
+
+# Locale these tags. Default is en_US
+lang: en_US
+
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "marcel-artz.de"  # eg. "deanattali.com/beautiful-jekyll"
+
+  # --- Web Statistics Section --- #
+
+  # Matomo (aka Piwik) Web statistics
+  # Uncomment the following section to enable Matomo. The opt-out parameter controls
+  # whether or not you want to allow users to opt out of tracking.
+
+  # jekyll_analytics:
+  # matomo:
+  #  site_id: "9"
+  #  uri: "demo.wiki.pro"
+#  opt-out: true
+
+# --- Comments --- #
+
+# To use Staticman comments, fill in repository, branch, and endpoint
+staticman:
+  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
+  reCaptcha:
+    # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
+    # If you use reCaptcha, you must also set these parameters in staticman.yml
+    siteKey  : # Use your own site key, you need to apply for one on Google
+    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+
+# --- Misc --- #
+
+# Facebook App ID
+# fb_app_id: ""
+
+# Excerpt Word Length
+# Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 40
+
+# Character used to separate site title and description in HTML document title
+# and RSS feed title
+title-separator: "-"
+
+# Ruby Date Format
+date_format: "%B %-d, %Y"
+
+# --- Don't need to touch anything below here (but you can if you want) --- #
+
+# Output options (more information on Jekyll's site)
+timezone: "Europe/Berlin"
+markdown: kramdown
+highlighter: rouge
+permalink: /posts/:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false  # add comments to all blog posts
+      related-posts: true # add related posts at the end of each post
+      social-share: false # add social media sharing buttons to all blog posts
+
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+# Use tags index page and make tags on each post clickable
+link-tags: true
+
+# @mention support for your social network.
+# See https://github.com/jekyll/jekyll-mentions for further instructions
+jekyll-mentions: https://twitter.com    # Replace url with 'false' to deacttivate @mention
+
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
+  - screenshot.png
+  - vendor
+  - .jekyll-cache
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-analytics
+  - jekyll-redirect-from

@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
 
   # Core dependencies
   spec.add_runtime_dependency "bundler", "~> 2.1"
-  spec.add_runtime_dependency "jekyll", "~> 4.0"
+  spec.add_runtime_dependency "jekyll", "~> 4.1"
 
   # Other plugins by Jekyll
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"

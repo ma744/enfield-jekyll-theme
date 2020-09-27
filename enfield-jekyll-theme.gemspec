@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "enfield-jekyll-theme"
-  spec.version       = "1.1.0"
+  spec.version       = "1.1.1"
   spec.authors       = ["Marcel Artz"]
   spec.email         = ["email@marcel-artz.de"]
 

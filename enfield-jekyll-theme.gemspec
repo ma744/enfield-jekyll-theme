@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "enfield-jekyll-theme"
-  spec.version       = "1.1.1"
+  spec.version       = "1.1.2"
   spec.authors       = ["Marcel Artz"]
   spec.email         = ["email@marcel-artz.de"]
 
@@ -22,10 +22,10 @@ Gem::Specification.new do |spec|
   # Other plugins by Jekyll
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
-  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.7"
   spec.add_runtime_dependency "jekyll-mentions", "~> 1.6"
   spec.add_runtime_dependency "jekyll-gist", "~> 1.5"
-  spec.add_runtime_dependency "jekyll-feed", "~> 0.13"
+  spec.add_runtime_dependency "jekyll-feed", "~> 0.15"
   spec.add_runtime_dependency "jekyll-redirect-from", "~> 0.16"
 
   # Third party plugins

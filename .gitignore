@@ -10,4 +10,6 @@ _site
 .bundle/
 vendor
 
+# Ignore folders created by Webstorm IDE
+.idea
 
